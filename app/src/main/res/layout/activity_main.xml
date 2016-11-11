@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="hgl.ican.io.animationdemo.ClickHandler"/>
+
+        <variable
+            name="clickHandler"
+            type="ClickHandler"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view) -> clickHandler.onMainActivityButtonClicked(0)}"
+            android:text="ValueAnimator"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view) -> clickHandler.onMainActivityButtonClicked(1)}"
+            android:text="ViewAnimator"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view) -> clickHandler.onMainActivityButtonClicked(2)}"
+            android:text="DrawableAnimator"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view) -> clickHandler.onMainActivityButtonClicked(3)}"
+            android:text="MaterialAnimator"/>
+    </LinearLayout>
+
+</layout>

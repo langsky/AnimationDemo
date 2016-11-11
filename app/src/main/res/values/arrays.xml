@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time_interpolator">
+        <item>Spinner 1</item>
+        <item>Spinner 2</item>
+        <item>Spinner 3</item>
+    </string-array>
+    <string-array name="type_evaluator">
+
+    </string-array>
+</resources>
